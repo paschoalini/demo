@@ -3,38 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-<!--	<parent>-->
-<!--		<groupId>org.springframework.boot</groupId>-->
-<!--		<artifactId>spring-boot-starter-parent</artifactId>-->
-<!--		<version>3.0.0</version>-->
-<!--		<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
-<!--	</parent>-->
-
 	<parent>
-		<groupId>br.com.corpambiental</groupId>
-		<artifactId>spring-boot-parent</artifactId>
-		<version>1.2.0-SNAPSHOT</version>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.5</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
-	<repositories>
-		<repository>
-			<id>corp-ambiental</id>
-			<url>https://brk-vsts.pkgs.visualstudio.com/_packaging/corp-ambiental/maven/v1</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
-	<distributionManagement>
-		<repository>
-			<id>corp-ambiental</id>
-			<url>https://pkgs.dev.azure.com/brk-vsts/_packaging/corp-ambiental/maven/v1</url>
-		</repository>
-	</distributionManagement>
 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
